@@ -1,0 +1,96 @@
+{
+  "background": {
+    "display": { "blur": 0, "luminosity": -0.2 },
+    "id": "08EbW0MS5cvF",
+    "key": "background/image"
+  },
+  "data/WhrXRXUypJ8_": {
+    "input": ".Links a {\n  transition: all 0.2s ease;\n  padding: 6px 10px;\n  border-radius: 6px;\n}\n.Links a:hover {\n  background: rgba(255,255,255,0.15);\n  transform: translateX(4px);\n}\n\n/* ============================\n   GREETING - 大きくて上品に\n   ============================ */\n.Greeting h2 {\n  font-size: 5rem;\n  font-weight: 200;\n  letter-spacing: 0.08em;\n  margin: 0;\n  padding: 20px 0;\n  background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.6) 100%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.15));\n  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1);\n}\n\n@keyframes fadeInUp {\n  from {\n    opacity: 0;\n    transform: translateY(30px);\n    filter: blur(10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n    filter: blur(0);\n  }\n}\n\n/* ============================\n   SEARCH BOX - フロステッドガラス\n   ============================ */\n.Search {\n  position: relative;\n  width: 520px;\n  margin: 30px auto;\n}\n\n.Search input {\n  width: 100%;\n  box-sizing: border-box;\n  padding: 18px 24px 18px 56px !important;\n  font-size: 1.05rem !important;\n  color: white !important;\n  background: rgba(255,255,255,0.08) !important;\n  border: 1px solid rgba(255,255,255,0.15) !important;\n  border-radius: 100px !important;\n  backdrop-filter: blur(24px) saturate(180%);\n  -webkit-backdrop-filter: blur(24px) saturate(180%);\n  box-shadow: \n    0 8px 32px rgba(0,0,0,0.12),\n    inset 0 1px 0 rgba(255,255,255,0.15);\n  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);\n  outline: none !important;\n}\n\n.Search input::placeholder {\n  color: rgba(255,255,255,0.55);\n  font-weight: 300;\n  letter-spacing: 0.03em;\n}\n\n.Search input:focus {\n  background: rgba(255,255,255,0.14) !important;\n  border-color: rgba(255,255,255,0.35) !important;\n  box-shadow: \n    0 12px 48px rgba(0,0,0,0.2),\n    inset 0 1px 0 rgba(255,255,255,0.25),\n    0 0 0 6px rgba(255,255,255,0.08);\n  transform: translateY(-2px);\n}\n\n/* 虫眼鏡アイコンを疑似要素で追加 */\n.Search::before {\n  content: \"\";\n  position: absolute;\n  left: 22px;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 20px;\n  height: 20px;\n  background: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='8'/><line x1='21' y1='21' x2='16.65' y2='16.65'/></svg>\") no-repeat center/contain;\n  opacity: 0.7;\n  pointer-events: none;\n  transition: opacity 0.3s;\n}\n\n.Search:focus-within::before {\n  opacity: 1;\n}\n\n/* ============================\n   LINKS - 右揃え\n   ============================ */\n.Links {\n  text-align: left !important;\n  justify-items: start !important;\n}\n\n.Links a {\n  justify-content: flex-start;\n}"
+  },
+  "data/g07dArFc_eP2": {
+    "columns": 3,
+    "linkOpenStyle": false,
+    "links": [
+      {
+        "icon": "_favicon",
+        "name": "aws",
+        "url": "https://ap-northeast-1.console.aws.amazon.com/console/home?region=ap-northeast-1"
+      },
+      {
+        "icon": "_favicon",
+        "name": "gcp",
+        "url": "https://console.cloud.google.com/welcome?hl=ja"
+      },
+      { "icon": "_favicon", "name": "claude", "url": "https://claude.ai/" },
+      { "icon": "_favicon", "name": "github", "url": "https://github.com/" },
+      {
+        "icon": "_favicon",
+        "name": "gitlab",
+        "url": "https://gitlab.com/kokicojp-group"
+      },
+      {
+        "icon": "_favicon",
+        "name": "Future",
+        "url": "https://lessons-portal.firebaseapp.com/student"
+      },
+      {
+        "icon": "_favicon",
+        "name": "u-next",
+        "url": "https://video.unext.jp/"
+      },
+      {
+        "icon": "_favicon",
+        "name": "atcoder",
+        "url": "https://atcoder.jp/?lang=ja"
+      },
+      {
+        "icon": "_favicon",
+        "name": "calender",
+        "url": "https://calendar.google.com/calendar/u/0/r/month"
+      }
+    ],
+    "visible": true
+  },
+  "focus": false,
+  "widget/KoE_ePra5Gr_": null,
+  "widget/OmkY_CMiiasp": {
+    "display": { "position": "middleCentre" },
+    "id": "OmkY_CMiiasp",
+    "key": "widget/search",
+    "order": 2
+  },
+  "widget/QUg5V3syiazk": null,
+  "widget/WhrXRXUypJ8_": {
+    "display": { "position": "middleCentre" },
+    "id": "WhrXRXUypJ8_",
+    "key": "widget/css",
+    "order": 3
+  },
+  "widget/decy5-9KrBDV": null,
+  "widget/default-greeting": {
+    "display": { "position": "middleCentre" },
+    "id": "default-greeting",
+    "key": "widget/greeting",
+    "order": 1
+  },
+  "widget/default-time": {
+    "display": { "position": "topCentre" },
+    "id": "default-time",
+    "key": "widget/time",
+    "order": 0
+  },
+  "widget/g07dArFc_eP2": {
+    "display": {
+      "fontFamily": "-apple-system, BlinkMacSystemFont",
+      "fontWeight": 500,
+      "position": "middleCentre"
+    },
+    "id": "g07dArFc_eP2",
+    "key": "widget/links",
+    "order": 4
+  },
+  "widget/pgFS_X0kiIDR": null,
+  "locale": "ja",
+  "timeZone": null,
+  "version": 3
+}
