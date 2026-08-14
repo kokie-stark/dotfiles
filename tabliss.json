@@ -44,9 +44,14 @@
         "url": "https://atcoder.jp/?lang=ja"
       },
       {
-        "icon": "_favicon",
+        "icon": "calendar",
         "name": "calender",
         "url": "https://calendar.google.com/calendar/u/0/r/month"
+      },
+      {
+        "icon": "mail",
+        "name": "Gmail",
+        "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
       }
     ],
     "visible": true
