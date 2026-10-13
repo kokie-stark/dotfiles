@@ -1,0 +1,52 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+r",
+    "command": "python.execInTerminal",
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditorInGroup",
+  },
+  {
+    "key": "cmd+k alt+cmd+right",
+    "command": "-workbench.action.nextEditorInGroup",
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditorInGroup",
+  },
+  {
+    "key": "cmd+k alt+cmd+left",
+    "command": "-workbench.action.previousEditorInGroup",
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack",
+  },
+  {
+    "key": "browserback",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack",
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward",
+  },
+  {
+    "key": "browserforward",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward",
+  },
+  // 追加
+  {
+    "key": "cmd+shift+g",
+    "command": "workbench.view.scm",
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+  },
+]

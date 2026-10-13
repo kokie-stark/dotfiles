@@ -1,0 +1,59 @@
+{
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "rust-analyzer.runnables.command": null,
+  "rust-analyzer.cargo.target": null,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.editorAssociations": {
+    "*.VSIXPackage": "default",
+  },
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "claudeCode.preferredLocation": "panel",
+  "workbench.activityBar.location": "bottom",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.viewSessions.orientation": "stacked",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": false,
+    "log": false,
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "js/ts.tsserver.log": "verbose",
+  "chat.disableAIFeatures": true,
+  "cSpell.userWords": ["dify"],
+  "workbench.colorTheme": "Kanagawa",
+  "window.density.editorTabHeight": "compact",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "workbench.editor.revealIfOpen": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "npm.scriptExplorerAction": "run",
+  "vscode-neovim.compositeKeys": {
+    "jj": { "command": "vscode-neovim.escape" },
+    "jk": {
+      // Use lua to execute any logic
+      "command": "vscode-neovim.lua",
+      "args": [
+        [
+          "local code = require('vscode')",
+          "code.action('vscode-neovim.escape')",
+          "code.action('workbench.action.files.save')",
+        ],
+      ],
+    },
+  },
+}
